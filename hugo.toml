@@ -1,0 +1,41 @@
+# copyright = "© stCarolas"
+
+[[module.imports]]
+path = "github.com/willfaught/paige"
+
+[languages.en]
+title = "ODA"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "home"
+name = "Главная"
+url = "/"
+weight = 10
+
+# [[languages.en.menu.main]]
+# identifier = "widgets"
+# name = "Виджеты"
+# url = "/widgets/"
+# weight = 20
+#
+# [[languages.en.menu.main]]
+# identifier = "billing"
+# name = "Тарифы"
+# url = "/billing/"
+# weight = 30
+#
+# [[languages.en.menu.main]]
+# identifier = "enroll"
+# name = "Как подключить"
+# url = "/enroll/"
+# weight = 40
+
+[[languages.en.menu.main]]
+identifier = "login"
+name = "Войти"
+url = "https://widgets.oda.digital/"
+weight = 50
+
+[markup.goldmark.renderer]
+unsafe = true
