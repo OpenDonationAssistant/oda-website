@@ -13,6 +13,18 @@ name = "Главная"
 url = "/"
 weight = 10
 
+[[languages.en.menu.main]]
+identifier = "news"
+name = "Новости"
+url = "/news"
+weight = 20
+
+[[languages.en.menu.main]]
+identifier = "enroll"
+name = "Как подключить"
+url = "/enroll"
+weight = 30
+
 # [[languages.en.menu.main]]
 # identifier = "widgets"
 # name = "Виджеты"
@@ -39,3 +51,6 @@ weight = 50
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[paige.menu]
+style = "tabs" # Must be "links", "pills", "tabs", or "underline"

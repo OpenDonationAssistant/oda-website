@@ -14,9 +14,6 @@ paige:
     .nav-pills a.nav-link.active {
       background-color: #684aff;
     }
-    .nav-item .nav-link {
-      color: #684aff;
-    }
     .paige-icon a{
       color: #684aff;
     }
