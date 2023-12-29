@@ -1,5 +1,9 @@
 # copyright = "© stCarolas"
 
+[[params.meta]]
+  favicon = false
+	svg = false
+
 [[module.imports]]
 path = "github.com/willfaught/paige"
 
@@ -19,17 +23,18 @@ weight = 10
 # url = "https://oda.digital/news"
 # weight = 20
 #
-# [[languages.en.menu.main]]
-# identifier = "enroll"
-# name = "Как подключить"
-# url = "https://oda.digital/enroll"
-# weight = 30
 
 [[languages.en.menu.main]]
 identifier = "widgets"
 name = "Виджеты"
 url = "/widgets/"
 weight = 20
+
+[[languages.en.menu.main]]
+identifier = "enroll"
+name = "Как подключить"
+url = "/enroll/"
+weight = 30
 #
 # [[languages.en.menu.main]]
 # identifier = "billing"

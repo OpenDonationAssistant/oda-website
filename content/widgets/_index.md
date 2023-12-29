@@ -55,9 +55,13 @@ paige:
       margin-bottom: 10px;
       padding-top: 12px;
     }
+    .widget-title {
+      margin-bottom: 10px;
+    }
 ---
+
 <div class="widget-demo">
-    <h3 class="text-center">Алерты</h3>
+    <h3 class="text-center widget-title">Алерты</h3>
     <div class="widget-item">
         <img style="flex: 0 0 auto; width: 400px;" src="https://i.imgur.com/Jrby8gv.gif"/>
         <div class="widget-description">
@@ -69,7 +73,7 @@ paige:
 </div>
 
 <div class="widget-demo">
-    <h3 class="text-center">Плеер</h3>
+    <h3 class="text-center widget-title">Плеер</h3>
     <div class="widget-item">
         <div class="widget-description">
             <div>
@@ -78,6 +82,7 @@ paige:
             <div style="margin-top: 20px;">
             Из интересных особенностей: 
                 <ul>
+                    <li>Можно добавлять сразу плейлисты, не только отдельные треки.</li>
                     <li>Если во время воспроизведения срабатывает алерт для доната, видео ставится на паузу, пока алерт не озвучится, и продолжается автоматически после.</li>
                     <li>
                     В плеере две вкладки, Requested и Personal, которые помогают стримеру переключаться между своей музыкой и заказанной. Стример может добавить треки/плейлист во вкладку Personal, и если во время их воспроизведения случится донат с заказанной музыкой, плеер автоматически переключится на вкладку Requested, отыграет заказанные треки и вернется обратно на вкладку Personal, на то, что поставил стример.
@@ -90,12 +95,36 @@ paige:
 </div>
 
 <div class="widget-demo">
-    <h3 class="text-center">Список донатеров</h3>
+    <h3 class="text-center widget-title">Очередь заказов и текущий трек</h3>
+    <div class="widget-item" style="flex-direction: column; margin-bottom: 30px;">
+        <img style="flex: 0 0 auto" src="https://i.imgur.com/ypoHAaF.png"/>
+        <div class="widget-description" style="width: unset;">
+            <div>
+             Полоска с количеством заказанных треков в плеере в очереди помогает понять, когда проиграет заказнный зрителем новый трек,а название текущего видео помогает быстро найти его самостоятельно.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="widget-demo">
+    <h3 class="text-center widget-title">Список донатеров</h3>
     <div class="widget-item">
         <img style="flex: 0 0 auto" src="https://i.imgur.com/qTNPFnk.jpg"/>
         <div class="widget-description">
             <div>
             Список донатеров легко настраивается под любой сценарий - топ донатеров за месяц или день, последний донат или бегущая строка со всеми донатерами.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="widget-demo">
+    <h3 class="text-center widget-title">Трекер времени без донатов</h3>
+    <div class="widget-item" style="flex-direction: column; margin-bottom: 30px;">
+        <img style="flex: 0 0 auto" src="https://i.imgur.com/iLFIqj8.png"/>
+        <div class="widget-description" style="width: unset;">
+            <div>
+             Таймер, показывающий, сколько времени прошло с последнего доната, поможет стимулировать зрителей на дополнительные пожертвования.
             </div>
         </div>
     </div>
