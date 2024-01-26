@@ -23,7 +23,7 @@ paige:
 title: "Open Donation Assistant"
 ---
 
-<p>{{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="https://api.oda.digital/images/stanley-li-sW6qUDc0uQY-unsplash.jpg" width="100%" %}}</p>
+<p>{{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="https://i.imgur.com/Y1jTDBb.jpg" width="100%" %}}</p>
 
 <p class="display-5 fw-bold h5 text-center">Сервис донатов c открытым кодом</p>
 

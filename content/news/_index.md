@@ -21,7 +21,7 @@ paige:
       font-size: 4.5rem;
     }
     ul li {
-    margin-bottom: 5px;
+      margin-bottom: 5px;
     }
     .paige-image img {
       border: 1px solid #684aff;
@@ -30,14 +30,13 @@ paige:
 
 <div class="container-fluid">
     <div class="justify-content-center row">
-        <p class="fw-bold h4 text-left">22.12.2023</p>
-        <ul>
-        <li>Переработан сайт <a href="https://oda.digital">oda.digital</a></li>
-        <li><span>Плеер теперь запоминает загруженные плейлисты - их можно повторно загрузить по кнопке-подсказке в диалоге добавления трека</span>
-        <span>{{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" process="webp" src="https://api.oda.digital/images/oda.digital/2023-12-22_23-12-1703275771.png" %}}</span>
+        <p class="fw-bold text-left">26.01.2024</p>
+        <li>
+            Добавлена настройка цвета фона для виджета Donaters List
         </li>
         <li>
-        <span>В плеере кнопка меню переехала ближе к вкладкам для большей компактности плеера</span>
+            При проигрывании алерта теперь игнорируются ошибки озвучки,
+            алерт будет считаться воспроизведенным
         </li>
         </ul>
     </div>

@@ -17,12 +17,12 @@ name = "Главная"
 url = "/"
 weight = 10
 
-# [[languages.en.menu.main]]
-# identifier = "news"
-# name = "Новости"
-# url = "https://oda.digital/news"
-# weight = 20
-#
+[[languages.en.menu.main]]
+identifier = "news"
+name = "Обновления"
+url = "/news/"
+weight = 20
+
 
 [[languages.en.menu.main]]
 identifier = "widgets"
