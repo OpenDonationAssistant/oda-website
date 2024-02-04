@@ -1,5 +1,4 @@
 # copyright = "© stCarolas"
-
 [[params.meta]]
   favicon = false
 	svg = false
@@ -35,18 +34,6 @@ identifier = "enroll"
 name = "Как подключить"
 url = "/enroll/"
 weight = 30
-#
-# [[languages.en.menu.main]]
-# identifier = "billing"
-# name = "Тарифы"
-# url = "/billing/"
-# weight = 30
-#
-# [[languages.en.menu.main]]
-# identifier = "enroll"
-# name = "Как подключить"
-# url = "/enroll/"
-# weight = 40
 
 [[languages.en.menu.main]]
 identifier = "login"
@@ -58,4 +45,10 @@ weight = 50
 unsafe = true
 
 [paige.menu]
-style = "tabs" # Must be "links", "pills", "tabs", or "underline"
+style = "tabs"
+
+[paige.analytics]
+disable = false
+
+[paige.analytics.yandex] # See https://metrica.yandex.com
+account_id = "96296405"
