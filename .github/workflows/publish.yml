@@ -47,4 +47,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/opendonationassistant/oda.digital:master
+          tags: ghcr.io/opendonationassistant/oda-website:master
