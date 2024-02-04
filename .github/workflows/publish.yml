@@ -47,4 +47,4 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_PASSPHRASE }}
           port: ${{ secrets.PORT }}
-          script: uptime
+          script: sh ~/update_main.sh
