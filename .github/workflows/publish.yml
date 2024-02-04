@@ -47,6 +47,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/opendonationassistant/oda.digital:latest
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+          tags: ghcr.io/opendonationassistant/oda.digital:master
