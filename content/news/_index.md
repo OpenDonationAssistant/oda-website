@@ -34,6 +34,14 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">06.02.2024</p>
+            <ul>
+                <li>
+                    Для алертов появилась настройка "Сколько времени показывать изображение (сек)", при задании которой алерт сначала покажет только изображение, затем по истечении указанного времени заменит его на текст сообщения (т.е. изображение и текст покажутся последовательно)
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">03.02.2024</p>
             <ul>
                 <li>
