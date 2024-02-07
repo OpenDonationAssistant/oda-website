@@ -42,11 +42,6 @@ weight = 50
 
 [markup.goldmark.renderer]
 unsafe = true
+
 [paige.menu]
 style = "tabs"
-
-[paige.analytics]
-disable = false
-
-[paige.analytics.yandex] # See https://metrica.yandex.com
-account_id = "96296405"
