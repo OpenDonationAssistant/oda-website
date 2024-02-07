@@ -3,6 +3,7 @@ description: "Монетизация для любой активности на
 paige:
   search:
     hide_page: true
+  analytics.yandex.account_id: "96296405"
   style: |
     #paige-collections,
     #paige-sections,
