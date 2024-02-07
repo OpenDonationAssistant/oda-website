@@ -1,7 +1,5 @@
 ---
 paige:
-  search:
-    hide_page: true
   style: |
     #paige-collections,
     #paige-sections,

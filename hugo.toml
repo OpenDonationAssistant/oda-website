@@ -1,6 +1,6 @@
 [[params.meta]]
-  favicon = false
-	svg = false
+favicon = false
+svg = false
 
 [[module.imports]]
 path = "github.com/willfaught/paige"
@@ -43,5 +43,26 @@ weight = 50
 [markup.goldmark.renderer]
 unsafe = true
 
-[paige.menu]
-style = "tabs"
+[params.paige]
+style = """
+    #paige-collections,
+    #paige-sections,
+    #paige-reading-time,
+    #paige-credit,
+    #paige-breadcrumbs,
+    #paige-pages {
+      display: none;
+    }
+    .nav-pills a.nav-link.active {
+      background-color: #684aff;
+    }
+    .paige-icon a{
+      color: #684aff;
+    }
+"""
+
+[params.paige.search]
+hide_page = true
+
+[params.paige.analytics.yandex]
+account_id = "96296405"
