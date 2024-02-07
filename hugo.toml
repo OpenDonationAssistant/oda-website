@@ -46,7 +46,7 @@ unsafe = true
 style = "tabs"
 
 [paige.analytics]
-disable = true
+disable = false
 
 [paige.analytics.yandex] # See https://metrica.yandex.com
 account_id = "96296405"
