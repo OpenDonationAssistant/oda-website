@@ -32,6 +32,14 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">08.02.2024</p>
+            <ul>
+                <li>
+                    Редизайн форм настроек виджетов
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">06.02.2024</p>
             <ul>
                 <li>
