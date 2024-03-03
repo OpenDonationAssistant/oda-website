@@ -32,6 +32,22 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">03.03.2024</p>
+            <ul>
+                <li>
+                    В плеер добавлен ползунок громкости
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
+            <p class="fw-bold text-left">01.03.2024</p>
+            <ul>
+                <li>
+                    Добавлена кнопка скрытия доп.текста на донатной странице. Текст скрывается до тех пор, пока не стример его не поменяет - тогда автоматически раскроется снова
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">08.02.2024</p>
             <ul>
                 <li>
