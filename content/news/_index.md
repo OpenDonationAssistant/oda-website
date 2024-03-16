@@ -32,6 +32,22 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">14.03.2024</p>
+            <ul>
+                <li>
+                    Редизайн отображения заказываемых треков на странице доната
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
+            <p class="fw-bold text-left">12.03.2024</p>
+            <ul>
+                <li>
+                    Новый виджет - Рулетка! Добавляется и настраивается, как и все остальные, в общей панели настроек
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">05.03.2024</p>
             <ul>
                 <li>
