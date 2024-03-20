@@ -32,6 +32,14 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">20.03.2024</p>
+            <ul>
+                <li>
+                    Панель настроек виджета теперь делится на вкладки, если настроек много (см donaters-top-list)
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">14.03.2024</p>
             <ul>
                 <li>
