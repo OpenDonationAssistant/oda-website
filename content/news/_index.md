@@ -32,6 +32,14 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">23.03.2024</p>
+            <ul>
+                <li>
+                   Настройки рулетки раскиданы по табам, добавлена возможность добавлять фоновую картинку для карточек
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">20.03.2024</p>
             <ul>
                 <li>
