@@ -32,6 +32,14 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">29.03.2024</p>
+            <ul>
+                <li>
+                    Доделан виджет Video-Popup, он теперь корректно работает со всеми другими виджетами, включая полоску с информацией об очереди и текущем треке.
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">23.03.2024</p>
             <ul>
                 <li>
