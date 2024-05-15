@@ -32,6 +32,17 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">13.05.2024</p>
+            <ul>
+                <li>
+                    Добавлен новый виджет - Donation Goals, позволяющий определять и выбирать цель для сбора средств
+                </li>
+                <li>
+                    Добавлена настройка "Минимальная сумма доната"
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">29.03.2024</p>
             <ul>
                 <li>
