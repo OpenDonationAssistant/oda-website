@@ -32,6 +32,14 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">21.05.2024</p>
+            <ul>
+                <li>
+                    Добавлена возможность подключать кастомный css файл для страницы доната в разделе Donation Page настроек.
+                /li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">13.05.2024</p>
             <ul>
                 <li>
