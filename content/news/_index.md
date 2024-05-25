@@ -32,6 +32,17 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">25.05.2024</p>
+            <ul>
+                <li>
+                    Добавлена возможность настроить текст кнопки оплаты.
+                </li>
+                <li>
+                    Добавлена возможность запустить тестовое оповещение о донате кнопкой "Тестовый алерт" в настройках
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">21.05.2024</p>
             <ul>
                 <li>
