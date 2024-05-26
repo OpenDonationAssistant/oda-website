@@ -1,5 +1,6 @@
 ---
 paige:
+  title: "Open Donation Assistant"
   search:
     hide_page: false
   style: |

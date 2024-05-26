@@ -1,4 +1,6 @@
 ---
+paige:
+  title: "Open Donation Assistant"
 ---
 
 <div class="container-fluid">

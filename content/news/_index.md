@@ -1,5 +1,6 @@
 ---
 paige:
+  title: "Open Donation Assistant"
   style: |
     #paige-collections,
     #paige-sections,
