@@ -33,6 +33,14 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">29.05.2024</p>
+            <ul>
+                <li>
+                    В алертах с настроенными картинкой/видео/звуком появились соответствующие кнопки "Удалить", убирающие их.
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">26.05.2024</p>
             <ul>
                 <li>
