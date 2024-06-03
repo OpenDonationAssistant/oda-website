@@ -66,3 +66,6 @@ hide_page = true
 
 [params.paige.analytics.yandex]
 account_id = "96296405"
+
+[params.paige.analytics.woopra] # See https://woopra.com
+domain = "oda.digital"
