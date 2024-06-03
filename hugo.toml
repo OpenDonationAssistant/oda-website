@@ -72,3 +72,6 @@ domain = "oda.digital"
 
 [params.paige.analytics.mixpanel] # See https://mixpanel.com
 token = "f69bdeab241f78e0fd8614fc8d527275"
+
+[params.paige.analytics.clarity] # See https://clarity.microsoft.com
+account_id = "mm1viw59qq"
