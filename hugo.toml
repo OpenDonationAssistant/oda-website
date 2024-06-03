@@ -69,3 +69,6 @@ account_id = "96296405"
 
 [params.paige.analytics.woopra] # See https://woopra.com
 domain = "oda.digital"
+
+[params.paige.analytics.mixpanel] # See https://mixpanel.com
+token = "f69bdeab241f78e0fd8614fc8d527275"
