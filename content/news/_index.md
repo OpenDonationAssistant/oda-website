@@ -33,6 +33,14 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">03.06.2024</p>
+            <ul>
+                <li>
+                    На странице доната добавлена форма обратной связи.
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">29.05.2024</p>
             <ul>
                 <li>
