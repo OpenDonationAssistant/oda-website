@@ -75,3 +75,6 @@ token = "f69bdeab241f78e0fd8614fc8d527275"
 
 [params.paige.analytics.clarity] # See https://clarity.microsoft.com
 account_id = "mm1viw59qq"
+
+[params.paige.analytics.beam] # See https://beamanalytics.io
+token = "7338f6d8-4dcc-4a79-bab9-72755ca60cfb"
