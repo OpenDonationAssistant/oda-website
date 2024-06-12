@@ -33,6 +33,21 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">12.06.2024</p>
+            <p class="fw-bold text-left"></p>
+            <ul>
+                <li>
+                    Редизайн раздела Widgets в личном кабинете.
+                </li>
+                <li>
+                    В настройках всех виджетов при выборе шрифта теперь можно искать  его по названию.
+                </li>
+                <li>
+                    Во всех виджетах, где есть настройка цветов, добавилась возможность указать прозрачность.
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">03.06.2024</p>
             <ul>
                 <li>
