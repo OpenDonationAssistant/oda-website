@@ -33,6 +33,15 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">16.06.2024</p>
+            <p class="fw-bold text-left"></p>
+            <ul>
+                <li>
+                    Новый раздел в личном кабинете - История донатов.
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">12.06.2024</p>
             <p class="fw-bold text-left"></p>
             <ul>
