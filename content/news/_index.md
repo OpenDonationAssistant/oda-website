@@ -33,6 +33,15 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">19.06.2024</p>
+            <p class="fw-bold text-left"></p>
+            <ul>
+                <li>
+                    Новая шапка сайта в личном кабинете с возможностью логаута и выбора языка.
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">16.06.2024</p>
             <p class="fw-bold text-left"></p>
             <ul>
