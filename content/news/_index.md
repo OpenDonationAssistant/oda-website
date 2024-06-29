@@ -33,6 +33,21 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">27.06.2024</p>
+            <p class="fw-bold text-left"></p>
+            <ul>
+                <li>
+                    Для шрифтов во всех виджетах теперь доступны новые настройки - тени, анимации и не только.
+                </li>
+                <li>
+                    Для алертов добавилась возможность выбрать анимацию появления  изображения.
+                </li>
+                <li>
+            В виджете сбора средств теперь кастомизируется надпись с количеством собранных  средств.
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">19.06.2024</p>
             <p class="fw-bold text-left"></p>
             <ul>
