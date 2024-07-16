@@ -33,6 +33,21 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">15.07.2024</p>
+            <p class="fw-bold text-left"></p>
+            <ul>
+                <li>
+            В качестве интернет-эквайринга теперь можно  подключить Robokassa, что позволяет принимать донаты с зарубежных карт.
+                </li>
+                <li>
+            В разделе  Аудио в настройках алертов  появилась регулировка громкости для загружаемого алерта.
+                </li>
+                <li>
+            В разделе  Страница доната появилась возможность добавить  Подсказку/Комментарий к заказу музыки, которые  будут всплывать при добавлении ссылки на странице доната.
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">01.07.2024</p>
             <p class="fw-bold text-left"></p>
             <ul>
