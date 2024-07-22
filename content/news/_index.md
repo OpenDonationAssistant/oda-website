@@ -33,6 +33,17 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">22.07.2024</p>
+            <ul>
+                <li>
+                    В виджете "Список донатеров" добавился параметр, отвечающий за отступ между заголовком и списком.
+                </li>
+                <li>
+                    Для виджетов "Список донатеров", "Счетчик времени без донатов", "Сбор средств" появился режим предпросмотра в настройках.
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">21.07.2024</p>
             <ul>
                 <li>
