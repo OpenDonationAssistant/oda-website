@@ -33,6 +33,17 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">26.07.2024</p>
+            <ul>
+                <li>
+                    В плеере теперь можно перематывать видео ползунком.
+                </li>
+                <li>
+                    В виджетах "Сбор средств","Список донатеров","Таймер без донатов","Рулетка","Информация о треке" добавилась настройка закругления краев.
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">22.07.2024</p>
             <ul>
                 <li>
