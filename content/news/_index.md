@@ -33,6 +33,14 @@ paige:
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="news-item">
+            <p class="fw-bold text-left">02.08.2024</p>
+            <ul>
+                <li>
+                    В плеере добавлена поддержка ВК Видео - теперь кроме видео с YouTube можно прикреплять видео с ВКВидео к донату. Без дополнительных телодвижений работает точно так же, как реквесты с YouTube, могут быть вперемешку с ними, но  для  них пока что не  отображаются названия в плейлисте.
+                </li>
+            </ul>
+        </div>
+        <div class="news-item">
             <p class="fw-bold text-left">26.07.2024</p>
             <ul>
                 <li>
