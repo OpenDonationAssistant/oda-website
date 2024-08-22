@@ -1,0 +1,245 @@
+body {
+  background: #0c122e;
+  margin: 0;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+  color: #FBFFF1;
+  text-shadow:  3px 3px 8px #684aff;
+}
+
+h2 {
+  color: #FBFFF1;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+  text-shadow:  0 0 15px #684aff;
+}
+
+header {
+  width: 100vw;
+  height: 65px;
+  position: fixed;
+  top: 0px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+  background: #0c122e;
+}
+
+header .oda-button-default {
+  margin-left: 20px;
+}
+
+.header-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+
+a.oda-button-default {
+  color: #B4C5E4;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Nunito';
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+#telegram-button-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+a#telegram-button {
+  color: #FBFFF1;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Nunito';
+  line-height: 20px;
+  border: 1px solid rgb(104, 74, 255);
+  padding: 8px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 0 4px 1px #0009;
+
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+  }
+}
+
+.slide {
+  height: 75vh;
+  display: flex;
+  line-height: 0;
+}
+
+.slide.main {
+  background: #0c122e;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slide.second {
+  background: #FBFFF1;
+}
+
+.slide.third {
+  background: #B4C5E4;
+}
+
+.slide.final {
+  background: #0c122e;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+  --first-slide-color: #0c122e;
+  --second-slide-color: #FBFFF1;
+  --third-slide-color: #B4C5E4;
+}
+
+.background {
+  background: #0c122e;
+}
+
+.cards{
+  margin-bottom: 50px;
+}
+.cards-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  width: 380px;
+  height: 380px;
+  color: #FBFFF1;
+  box-shadow: 0 0 5px 1px rgba(104, 74, 255, 0.5);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  & .card-header {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    color: #FBFFF1;
+    text-shadow:  0 0 15px #0c122e;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Russo One', sans-serif;
+    text-wrap: balance;
+  }
+
+
+  & .card-description {
+    height: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    text-wrap: balance;
+    text-shadow:  0 0 3px #FBFFF1;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+#payment {
+  background: url("https://i.imgur.com/y56UUN8.jpeg");
+  background-size: cover;
+}
+
+#choice {
+  background: url("https://i.imgur.com/sCQy9xf.jpg");
+  background-size: cover;
+}
+
+#api {
+  background: url("https://i.imgur.com/NaTdre5.jpeg");
+  background-size: cover;
+}
+
+#how-to-start-title {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#settings {
+  background: url("https://i.imgur.com/0rLetiF.png");
+  background-size: cover;
+}
+
+#love {
+  background: url("https://i.imgur.com/xHNRZXh.png");
+  background-size: cover;
+}
+
+#platforms {
+  background: url("https://i.imgur.com/qZUmpLV.jpeg");
+  background-size: cover;
+}
+
+.how-to-start-step {
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  text-wrap: balance;
+  text-shadow:  0 0 3px #FBFFF1;
+  color: #FBFFF1;
+  text-shadow:  0 0 5px #0c122e;
+  text-wrap: balance;
+  line-height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 380px;
+}
+
+.step-number {
+  font-size: 30px;
+  font-family: 'Russo One', sans-serif;
+  color: rgb(180, 197, 228);
+  text-shadow:  0 0 5px #0c122e;
+  margin-right: 20px;
+  background-color: #0c122e;
+  border-right: 2px solid rgb(180, 197, 228);
+  padding: 15px 15px;
+}
+
+#how-to-start {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}

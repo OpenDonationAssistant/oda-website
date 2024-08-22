@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href='{{ "css/root.css" | absURL }}'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+              rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+              rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+              rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap"
+              rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+              rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+              rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap"
+              rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+              rel="stylesheet">
+    </head>
+    <body>
+        {{ partial "header.html" . }}
+        <main>
+            <div class="slide main">
+                <h1>Донатная платформа</h1>
+                <br />
+                <h1>под любые  нужды</h1>
+            </div>
+            <div class="background cards">
+                <div class="cards-container">
+                    <div id="payment" class="card">
+                        <div class="card-header">Прием донатов на расчетный счет без всяких посредников</div>
+                        <div class="card-description">
+                            Подключаем любой платежный сервис, что позволяет принимать донаты с минимальной комиссией.
+                        </div>
+                    </div>
+                    <div id="choice" class="card">
+                        <div class="card-header">Большой выбор виджетов</div>
+                        <div class="card-description">Попробуйте найти у кого больше! Держим планку, регулярно добавляем новые виджеты.</div>
+                    </div>
+                    <div id="api" class="card">
+                        <div class="card-header">Открытый исходный код и API с доступом через OpenId Connect</div>
+                        <div class="card-description">Чего-то не хватает - легко сделать самому.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="background cards">
+                <div class="cards-container">
+                    <div id="settings" class="card">
+                        <div class="card-header">Широкие возможности по настройке виджетов</div>
+                        <div class="card-description">
+                          И постоянно появляются новые опции.
+                        </div>
+                    </div>
+                    <div id="love" class="card">
+                        <div class="card-header">Сделано с любовью</div>
+                        <div class="card-description">
+                          Сплоченное коммьюнити помогает, предлагает и воплощает свои идеи.
+                        </div>
+                    </div>
+                    <div id="platforms" class="card">
+                        <div class="card-header">Работает в OBS и StreamLabs</div>
+                        <div class="card-description">
+                          Отображайте алерты на любой платформе, будь то Twitch или YouTube.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide final">
+                <h1 id="how-to-start-title">Как начать пользоваться</h1>
+                <div id="how-to-start">
+                    <div class="how-to-start-step">
+                        <span class="step-number">1</span>
+                        <span>Оставить заявку в телеграме и получить доступ в личный кабинет</span>
+                    </div>
+                    <div class="how-to-start-step">
+                        <span class="step-number">2</span>
+                        <span>Выбрать платежную систему (Юкасса, Робокасса, или что-то другое) и заключить с ней договор</span>
+                    </div>
+                    <div class="how-to-start-step">
+                        <span class="step-number">3</span>
+                        <span>Настроить виджеты и начать принимать донаты</span>
+                    </div>
+                </div>
+                <div id="telegram-button-container">
+                    <a id="telegram-button" href="https://t.me/stCarolas">Оставить заявку</a>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
