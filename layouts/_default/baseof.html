@@ -24,53 +24,51 @@
     <body>
         {{ partial "header.html" . }}
         <main>
-            <div class="slide main">
-                <h1>Донатная платформа</h1>
-                <br />
-                <h1>под любые  нужды</h1>
-            </div>
-            <div class="background cards">
-                <div class="cards-container">
-                    <div id="payment" class="card">
-                        <div class="card-header">Прием донатов на расчетный счет без всяких посредников</div>
-                        <div class="card-description">
-                            Подключаем любой платежный сервис, что позволяет принимать донаты с минимальной комиссией.
-                        </div>
-                    </div>
-                    <div id="choice" class="card">
-                        <div class="card-header">Большой выбор виджетов</div>
-                        <div class="card-description">Попробуйте найти у кого больше! Держим планку, регулярно добавляем новые виджеты.</div>
-                    </div>
-                    <div id="api" class="card">
-                        <div class="card-header">Открытый исходный код и API с доступом через OpenId Connect</div>
-                        <div class="card-description">Чего-то не хватает - легко сделать самому.</div>
+            <div class="background-holder">
+                <div class="slide-holder">
+                    <div class="slide main">
+                        <h1>Донатная платформа под любые  нужды</h1>
                     </div>
                 </div>
             </div>
-            <div class="background cards">
-                <div class="cards-container">
-                    <div id="settings" class="card">
-                        <div class="card-header">Широкие возможности по настройке виджетов</div>
-                        <div class="card-description">
-                          И постоянно появляются новые опции.
+            <div>
+                <div class="background cards">
+                    <div class="cards-container">
+                        <div id="payment" class="card">
+                            <div class="card-header">Прием донатов на расчетный счет без всяких посредников</div>
+                            <div class="card-description">
+                                Подключаем любой платежный сервис, что позволяет принимать донаты с минимальной комиссией.
+                            </div>
+                        </div>
+                        <div id="choice" class="card">
+                            <div class="card-header">Большой выбор виджетов</div>
+                            <div class="card-description">Попробуйте найти у кого больше! Держим планку, регулярно добавляем новые виджеты.</div>
+                        </div>
+                        <div id="api" class="card">
+                            <div class="card-header">Открытый исходный код и API с доступом через OpenId Connect</div>
+                            <div class="card-description">Чего-то не хватает - легко сделать самому.</div>
                         </div>
                     </div>
-                    <div id="love" class="card">
-                        <div class="card-header">Сделано с любовью</div>
-                        <div class="card-description">
-                          Сплоченное коммьюнити помогает, предлагает и воплощает свои идеи.
+                </div>
+                <div class="background cards">
+                    <div class="cards-container">
+                        <div id="settings" class="card">
+                            <div class="card-header">Широкие возможности по настройке виджетов</div>
+                            <div class="card-description">И постоянно появляются новые опции.</div>
                         </div>
-                    </div>
-                    <div id="platforms" class="card">
-                        <div class="card-header">Работает в OBS и StreamLabs</div>
-                        <div class="card-description">
-                          Отображайте алерты на любой платформе, будь то Twitch или YouTube.
+                        <div id="love" class="card">
+                            <div class="card-header">Сделано с любовью</div>
+                            <div class="card-description">Сплоченное коммьюнити помогает, предлагает и воплощает свои идеи.</div>
+                        </div>
+                        <div id="platforms" class="card">
+                            <div class="card-header">Работает в OBS и StreamLabs</div>
+                            <div class="card-description">Отображайте алерты на любой платформе, будь то Twitch или YouTube.</div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="slide final">
-                <h1 id="how-to-start-title">Как начать пользоваться</h1>
+                <h2 id="how-to-start-title">Как начать пользоваться</h2>
                 <div id="how-to-start">
                     <div class="how-to-start-step">
                         <span class="step-number">1</span>
