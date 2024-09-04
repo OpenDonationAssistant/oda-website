@@ -1,7 +1,85 @@
+/* nunito-latin-400-normal */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/nunito@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/nunito@latest/latin-400-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* nunito-latin-600-normal */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/nunito@latest/latin-600-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/nunito@latest/latin-600-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* nunito-latin-900-normal */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/nunito@latest/latin-900-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/nunito@latest/latin-900-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* nunito-cyrillic-400-normal */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/nunito@latest/cyrillic-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/nunito@latest/cyrillic-400-normal.woff) format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+/* nunito-cyrillic-600-normal */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/nunito@latest/cyrillic-600-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/nunito@latest/cyrillic-600-normal.woff) format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+/* nunito-cyrillic-900-normal */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/nunito@latest/cyrillic-900-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/nunito@latest/cyrillic-900-normal.woff) format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+/* russo-one-latin-400-normal */
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/russo-one@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/russo-one@latest/latin-400-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* russo-one-cyrillic-400-normal */
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/russo-one@latest/cyrillic-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/russo-one@latest/cyrillic-400-normal.woff) format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
 body {
   background: #0c122e;
-  /* background: #B4C5E4; */
-  margin: 0;
 }
 
 h1 {
@@ -22,23 +100,15 @@ h2 {
   text-shadow:  0 0 15px #684aff;
 }
 
-/* .background-holder::after { */
-/*   position: absolute; */
-/*   content: ""; */
-/*   left: 0; */
-/*   right: 0; */
-/*   background-position: bottom; */
-/*   background-repeat: no-repeat; */
-/*   background: url("/images/ellipse.svg"); */
-/* } */
-
 header {
   width: 100vw;
   height: 65px;
   position: fixed;
   top: 0px;
+  left: 0px;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
   background: #0c122e;
+  z-index: 3;
 }
 
 header .oda-button-default {
@@ -98,7 +168,6 @@ a#telegram-button {
 }
 
 .slide.main {
-  /* background: #0c122e; */
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -116,7 +185,6 @@ a#telegram-button {
 }
 
 .slide.final {
-  /* background: #0c122e; */
   flex-direction: column;
   padding-top: 50px;
 }
@@ -129,10 +197,6 @@ a#telegram-button {
   --first-slide-color: #0c122e;
   --second-slide-color: #FBFFF1;
   --third-slide-color: #B4C5E4;
-}
-
-.background {
-  /* background: #0c122e; */
 }
 
 .cards{
@@ -157,12 +221,24 @@ a#telegram-button {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  position: relative;
+
+  &::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50px;
+    background: rgba(0,0,0,0.65);
+    z-index: 1;
+  }
 
   & .card-header {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 40px;
-    background: rgba(0, 0, 0, 0.65);
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     color: #FBFFF1;
@@ -171,6 +247,7 @@ a#telegram-button {
     font-weight: 900;
     font-family: 'Russo One', sans-serif;
     text-wrap: balance;
+    z-index: 2;
   }
 
 
@@ -185,7 +262,7 @@ a#telegram-button {
     padding-top: 10px;
     padding-left: 40px;
     padding-right: 40px;
-    background: rgba(0, 0, 0, 0.65);
+    z-index: 2;
   }
 }
 
@@ -260,15 +337,36 @@ a#telegram-button {
   justify-content: center;
 }
 
-@media (max-width: 1000px) {
-  .slide {
-    /* height: 30vh; */
+@media (max-width: 1200px) {
+  main {
+    padding-top: 150px;
   }
-  .slide.final{
+  h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  #how-to-start-title {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  #how-to-start {
+    flex-direction: column;
+  }
+  .how-to-start-step {
+    width: 100%;
+  }
+  #step-description {
+    flex: 1 1 auto;
+  }
+  .slide {
     height: unset;
-    padding-top: 0px;
-    & #how-to-start {
-      /* flex-direction: column; */
+    &.final{
+      padding-top: 0px;
+    }
+    &.main {
+      padding-bottom: 50px;
     }
   }
   #telegram-button-container {
@@ -293,5 +391,8 @@ a#telegram-button {
   }
   .cards-container {
     flex-direction: column!important;
+  }
+  .background {
+    margin-bottom: 0px;
   }
 }

@@ -2,25 +2,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href='{{ "css/root.css" | absURL }}'>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
-              rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-              rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
-              rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap"
-              rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-              rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
-              rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap"
-              rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
-              rel="stylesheet">
     </head>
     <body>
         {{ partial "header.html" . }}
@@ -73,15 +56,15 @@
                 <div id="how-to-start">
                     <div class="how-to-start-step">
                         <span class="step-number">1</span>
-                        <span>Оставить заявку в телеграме и получить доступ в личный кабинет</span>
+                        <span class="step-description">Оставить заявку в телеграме и получить доступ в личный кабинет</span>
                     </div>
                     <div class="how-to-start-step">
                         <span class="step-number">2</span>
-                        <span>Выбрать платежную систему (Юкасса, Робокасса, или что-то другое) и заключить с ней договор</span>
+                        <span class="step-description">Выбрать платежную систему (Юкасса, Робокасса, или что-то другое) и заключить с ней договор</span>
                     </div>
                     <div class="how-to-start-step">
                         <span class="step-number">3</span>
-                        <span>Настроить виджеты и начать принимать донаты</span>
+                        <span class="step-description">Настроить виджеты и начать принимать донаты</span>
                     </div>
                 </div>
                 <div id="telegram-button-container">
@@ -89,7 +72,5 @@
                 </div>
             </div>
         </main>
-        <footer>
-        </footer>
     </body>
 </html>
