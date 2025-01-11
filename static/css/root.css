@@ -456,6 +456,7 @@ a#telegram-button {
   .card {
     margin-bottom: 50px;
     width: 90%;
+    height: unset;
     & .card-header {
       width: 100%;
       padding-left: 0px;
