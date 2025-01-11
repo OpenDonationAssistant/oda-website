@@ -420,7 +420,7 @@ a#telegram-button {
   margin-top: 5px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 60px;
     line-height: 60px;
