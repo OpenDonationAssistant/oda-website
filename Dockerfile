@@ -4,7 +4,7 @@
 FROM hugomods/hugo:exts as builder
 ENV HUGO_BASEURL=https://oda.digital/
 COPY . /src
-RUN hugo --minify --gc --enableGitInfo
+RUN hugo --minify --gc
 # Set the fallback 404 page if defaultContentLanguageInSubdir is enabled, please replace the `en` with your default language code.
 # RUN cp ./public/en/404.html ./public/404.html
 

@@ -1,4 +1,5 @@
 /* nunito-latin-400-normal */
+
 @font-face {
   font-family: 'Nunito';
   font-style: normal;
@@ -337,10 +338,89 @@ a#telegram-button {
   justify-content: center;
 }
 
+.news {
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 1200px;
+  margin: 100px auto 0px auto;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #2b3566;
+  border-radius: 5px;
+  box-shadow: 0 0 12px 3px #00000080;
+  margin-bottom: 25px;
+}
+
+.news-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.news-item-date {
+  color: rgb(180, 197, 228);
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Play";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.news-item-title {
+  color: rgb(251, 255, 241);
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Play";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.news-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  background-color: #2b3566;
+  border-top: 1px solid #684aff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 -10px 10px 1px #00000080;
+  color: #b4c5e4;
+  font-size: 19px;
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+
+.news-item-description {
+  color: rgb(180, 197, 228);
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Play";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.news-item-demo img {
+  width: 400px;
+  border: 1px solid #684aff;
+  border-radius: 5px;
+  box-shadow: 0 0 12px 3px #00000080;
+  margin-top: 5px;
+}
+
 @media (max-width: 1200px) {
-  main {
-    padding-top: 150px;
-  }
   h1 {
     font-size: 60px;
     line-height: 60px;
@@ -395,4 +475,8 @@ a#telegram-button {
   .background {
     margin-bottom: 0px;
   }
+  .background-holder {
+    margin-top: 150px;
+  }
 }
+

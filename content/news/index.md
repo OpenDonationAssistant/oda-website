@@ -1,3 +1,4 @@
-## Test
-- Test
-- Test
+---
+title: "Обновления"
+customCss: 'news/custom.css'
+---

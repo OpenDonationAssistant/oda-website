@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href='{{ "css/root.css" | absURL }}'>
+        {{ with .Params.customcss }}<link rel="stylesheet" href="{{ . | absURL }}" />{{ end }}
+    </head>
+    <body>
+        {{ partial "header.html" . }}
+        <main>
+          <div class="news">
+          {{ $url := "https://api.oda.digital/news" }}
+          {{ with resources.GetRemote $url | transform.Unmarshal }}
+            {{ range .content }}
+            <div class="news-item">
+              <div class="news-header">
+                <div class="news-item-title">{{ .title }}</div>
+                <div class="news-item-date">{{ .date }}</div>
+              </div>
+              <div class="news-body">
+                {{ if strings.ContainsNonSpace .demoUrl }}
+                  <div class="news-item-demo"><img src="{{ .demoUrl }}" /></div>
+                {{ end }}
+                <div class="news-item-description">{{ .description }}</div>
+              </div>
+            </div>
+            {{ end }}
+          {{ end }}
+          </div>
+        </main>
+    </body>
+</html>

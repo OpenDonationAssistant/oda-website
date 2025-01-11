@@ -1,0 +1,32 @@
+.news-header {
+  flex-wrap: wrap;
+}
+
+.news-body {
+  & .news-item-description {
+    text-align: justify;
+    min-width: 400px;
+  }
+}
+
+@media(max-width: 900px) {
+  .news-item {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    .news-body {
+      & .news-item-description {
+        text-align: justify;
+        min-width: unset;
+      }
+      flex-wrap: wrap;
+    }
+  }
+  .news-item-demo{
+    margin: 0 auto;
+    & img{
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
