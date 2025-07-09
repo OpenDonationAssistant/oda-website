@@ -14,3 +14,4 @@ RUN hugo --minify --gc
 FROM hugomods/hugo:nginx
 # Copy the generated files to keep the image as small as possible.
 COPY --from=builder /src/public /site
+COPY nginx.conf /etc/nginx/nginx.conf
