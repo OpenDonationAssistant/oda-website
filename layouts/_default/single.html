@@ -11,8 +11,8 @@
         <main>
           <div class="news">
           {{ $url := "https://api.oda.digital/news" }}
-          {{ with resources.GetRemote $url | transform.Unmarshal }}
-            {{ collections.Reverse .content | range }}
+          {{ with resources.GetRemote $url | transform.Unmarshal | .content | collections.Reverse }}
+            {{ range . }}
             <div class="news-item">
               <div class="news-header">
                 <div class="news-item-title">{{ .title }}</div>
