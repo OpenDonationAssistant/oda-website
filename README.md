@@ -11,4 +11,3 @@ docker run -p 13133:1313 \
   hugo server --bind 0.0.0.0
 ```
 which will start http server with deployed site on localhost:13133
-
