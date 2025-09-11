@@ -38,13 +38,3 @@ jobs:
           context: .
           push: true
           tags: ghcr.io/opendonationassistant/oda-website:${{ github.RUN_NUMBER }}
-
-      - name: Deploying new version
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          key: ${{ secrets.SSH_KEY }}
-          passphrase: ${{ secrets.SSH_PASSPHRASE }}
-          port: ${{ secrets.PORT }}
-          script: sh ~/update_main.sh ${{ github.RUN_NUMBER }}
